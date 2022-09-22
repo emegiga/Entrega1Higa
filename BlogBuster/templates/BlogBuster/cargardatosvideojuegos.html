@@ -1,0 +1,34 @@
+{% extends "BlogBuster/padre.html" %} 
+
+{% load static %} 
+
+<!-- Titulo de la ventana -->
+{% block browser-titulo %} 
+Carga de Juegos | BlogBuster - Be Kind, Rewind
+{% endblock %}
+
+<!-- Titulo del header -->
+{% block titulo %} 
+Cargar Juegos
+{% endblock %}
+
+<!-- Subtitulo del header -->
+{% block subtitulo %} 
+Ingrese datos del Juego
+{% endblock %}
+
+<!-- Formulario 
+{% block formulario %}			
+<div class="row justify-content-center">
+    <div class="col-lg-8 col-xl-7">
+        <form action="/blogbuster/cargardatosvideojuegos/" method="POST"> {% csrf_token %}
+            <p>Nombre: <input type="text" name="nombre"></p>
+            <p>Desarrolladora: <input type="text" name="desarrolladora"></p>
+            <p>Plataforma: <input type="text" name="plataforma"></p>
+            <p>Género: <input type="text" name="genero"></p>
+            <input type="submit" value="Cargar">
+        </form>
+{% endblock %}
+-->
+
+{{form3}}
