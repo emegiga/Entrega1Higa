@@ -1,11 +1,8 @@
-COMISION 46135				
---------------				
+COMISION 46135						
 
 INSTANCIA DE ENTREGA: Entrega Intermedia
---------------------
 
 INDICE
-------
 1- DESCRIPCION
 2- ORDEN DE PRUEBA
 3- FUNCIONALIDADES
@@ -13,13 +10,11 @@ INDICE
 
 1- DESCRIPCION: 
 MODELOS:
---------
 -Vhs
 -Cds
 -Videojuegos
 
 VISTAS:
--------
 -inicio
 -inputVhs
 -inputCds
@@ -28,7 +23,6 @@ VISTAS:
 -resultadoVhs
 
 TEMPLATES:
-----------
 buscarVhs.html
 cargardatoscds.html
 cargardatosvhs.html
@@ -38,7 +32,7 @@ padre.html
 resulstadosVhs.html
 
 APP: BlogBuster
-----
+
 
 
 
